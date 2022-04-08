@@ -1,0 +1,31 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#437ff8, #a6b1c7);
+}
+.centered{
+    text-align: center;
+}
+
+.myform{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    background-color: #43f8ab;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.c:hover{
+    background-color: #81f5c1;
+}
