@@ -14,7 +14,7 @@
 
 <h:head>
     <title>Login</title>
-  
+    <h:outputStylesheet name="CSS/style.css"></h:outputStylesheet>
 </h:head>
 
 <h:body>
@@ -24,10 +24,10 @@
         <h:panelGrid columns="2">
 
             <h:outputText value="User name"></h:outputText>
-            <h:inputText id="loginName"></h:inputText>
+            <h:inputText id="loginName" value="#{login.username}"></h:inputText>
 
             <h:outputText value="Password"></h:outputText>
-            <h:inputSecret id="password"></h:inputSecret>
+            <h:inputSecret id="password" value="#{login.password}"></h:inputSecret>
 
 
         </h:panelGrid>
